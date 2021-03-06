@@ -1,0 +1,192 @@
+/*Default CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Main Header Section CSS*/
+header#mainHeader {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 2px solid #ddd;
+}
+
+.mainLogo {
+    width: 20%;
+    float: left;
+    padding: 18px;
+}
+
+.mainLogo>img {
+    width: 100%;
+}
+
+nav.mainMenu {
+    width: 65%;
+    float: right;
+    padding: 5px;
+}
+
+nav.mainMenu>ul {
+    float: right;
+}
+
+nav.mainMenu>ul>li {
+    display: inline-block;
+}
+
+nav.mainMenu>ul>li>a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    float: left;
+    padding: 24px;
+}
+
+/*Header Section CSS End*/
+
+/*Heading Main Section CSS*/
+section#headingMain {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 10px solid #e6e3e3e0;
+}
+
+.left {
+    width: 50%;
+    float: left;
+    padding: 8px 20px;
+}
+
+.right {
+    width: 50%;
+    float: right;
+    padding: 49px 85px;
+}
+
+.left>p {
+    font-size: 14px;
+    padding: 20px 2px;
+}
+
+.left>h1 {
+    font-size: 60px;
+}
+
+.left>h1>span {
+    font-size: 60px;
+    color: #FA1D62;
+}
+/*Heading Main Section CSS End*/
+
+/*IntroSection Css*/
+section#introSection {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 35px;
+}
+
+.leftIntroImage {
+    width: 42%;
+    float: left;
+    margin-left: 42px;
+    margin-top: 44px;
+}
+
+.rightDesc {
+    width: 50%;
+    float: right;
+    padding-top: 46px;
+}
+
+.leftIntroImage>img {
+    width: 58%;
+    border-left: 10px solid #F4024B;
+    border-top: 10px solid #F4024B;
+}
+
+.rightDesc>h2 {
+    font-size: 25px;
+    padding-bottom: 16px;
+}
+
+.rightDesc>p {
+    line-height: 32px;
+}
+
+span.boldText {
+    font-weight: bold;
+}
+
+p>a {
+    text-decoration: none;
+    color: #bdafaf;
+    transition: 0.3s;
+}
+
+p>a:hover{
+    color: #95C277;
+}
+.rightDesc>button {
+    outline: none;
+    border: none;
+    padding: 17px 30px;
+    background: #FD0248;
+    color: white;
+    margin-top: 26px;
+}
+
+.rightDesc>button:hover{
+    cursor:pointer;
+}
+/*IntroSection Css End*/
+
+/*Services Section CSS Start*/
+section#serviceMain {
+    width: 100%;
+    overflow: hidden;
+}
+
+.serviceHeading {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.serviceHeading>h1 {
+    font-size: 26px;
+    margin-bottom: 22px;
+}
+.serviceitemOne {
+    width: 30%;
+    float: left;
+    margin: 18px;
+    padding: 15px;
+}
+
+.serviceDetail {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.serviceHeading>p {
+    line-height: 35px;
+}
+.serviceitemOne>a>i {
+    font-size: 45px;
+    padding-bottom: 9px;
+}
+
+.serviceitemOne>h2 {
+    font-size: 24px;
+    padding-bottom: 14px;
+}
+
+.serviceitemOne>p {
+    line-height: 28px;
+    font-size: 14px;
+}
+
+/*Services Section CSS End*/
