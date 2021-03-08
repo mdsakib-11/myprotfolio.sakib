@@ -192,3 +192,99 @@ section#serviceMain {
 }
 
 /*Services Section CSS End*/
+
+/*Skills And Education Section CSS Start*/
+section#skEdMain {
+    width: 100%;
+    overflow: hidden;
+    background: #F5F6F8;
+    padding: 28px 20px;
+}
+
+.leftDetail {
+    width: 48%;
+    float: left;
+}
+
+.rightBar {
+    width: 48%;
+    float: right;
+    padding-top: 12px;
+}
+
+.leftDetail h2 {
+    font-size: 26px;
+    margin-bottom: 18px;
+}
+
+p.sklText {
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.leftDetail>p>a {
+    line-height: 27px;
+    font-size: 14px;
+    color: black;
+}
+.leftDetail>p>i {
+    font-size: 13px;
+}
+
+button.higherBtn {
+    outline: none;
+    border: none;
+    padding: 13px 36px;
+    border-radius: 12px;
+    background: #E72E3C;
+    color: white;
+    margin-top: 22px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.fullProgress {
+    width: 95%;
+    height: 20px;
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.innerProgTotal {
+    height: 20px;
+    float: left;
+    border-radius: 5px;
+}
+
+.myProgItem>p {
+    padding-bottom: 3px;
+}
+
+.htmlCssProgs {
+    background: #21B169;
+    width: 90%;
+}
+
+.javaScriptProgs {
+    width: 60%;
+    background: #FC6B3F;
+}
+
+.jQueryProgs {
+    width: 65%;
+    background: #1E91FD;
+}
+
+.wordPressProgs {
+    width: 70%;
+    background: #FE9D29;
+}
+
+.seoProgs {
+    width: 55%;
+    background: #ED5DD0;
+}
+
+/*Skills And Education Section CSS End*/
