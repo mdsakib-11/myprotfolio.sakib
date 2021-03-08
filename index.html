@@ -1,197 +1,408 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Developer Sakib World's</title>
+/*Default CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Main Header Section CSS*/
+header#mainHeader {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 2px solid #ddd;
+}
 
-	<!-- Google Fonts Link! -->
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+.mainLogo {
+    width: 20%;
+    float: left;
+    padding: 18px;
+}
 
-	<!-- Custom CSS Link! -->
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<!-- Main Header Section Start! -->
-<header id="mainHeader">
-	<!-- Main Logo Section Start! -->
-	<div class="mainLogo">
-		<img src="https://i.ibb.co/58VvjCC/menulogo.png" alt="Image Not Found!!">
-	</div>
-	<!-- Main Logo Section End! -->
-	<!-- Main Menu Section Start! -->
-	<nav class="mainMenu">
-		<ul id="menu">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">Protfolio</a></li>
-			<li><a href="#">Blog</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-	</nav>
-	<!-- Main Menu Section End! -->
-</header>
-	<!-- Main Header Section End! -->
+.mainLogo>img {
+    width: 100%;
+}
 
- 	<!-- Heading Main Section Start -->
-	<section id="headingMain">
-		<div class="left">
-			<p>Freelancer Web Developer Programmer</p>
-			<h1>Hello, I'm <span>Sakib</span> Wellcome To Sakib's  World</h1>
-		</div>
-		<div class="right">
-			<img src="https://i.ibb.co/7gm5qnG/01.jpg" alt="Image Not Found!!">
-		</div>
-	</section>
-	<!-- Heading Main Section End -->
+nav.mainMenu {
+    width: 65%;
+    float: right;
+    padding: 5px;
+}
 
-	<!-- IntroSection Start -->
-	<section id="introSection">
-		<div class="leftIntroImage">
-			<img src="https://i.ibb.co/GvbmGZF/02.jpg" alt="Image Not Found!!">
-		</div>
-		<div class="rightDesc">
-			<h2>About Me</h2>
-			<p>Hi, I'm <span>Mohammed Sakib</span> I'm Front-End Web Developer.And I'm Very Passionate And Dedicated To My Work.With 2 Years Experience As a Web developer.I have acquired the skills and knowledge necessary to make your project a success.</p>
-			<p><span class="boldText">Name:</span>&nbsp;  Mohammed Sakib Islam</p>
-			<p><span class="boldText">Address:</span>&nbsp;  Rangpur, Bangladesh</p>
-			<p><span class="boldText">Age:</span>&nbsp;  20 Years</p>
-			<p><span class="boldText">Social Links:</span>&nbsp; <a href="#">Facebook</a></p>
-			<button>Freelancer Profile</button>
-			<button>Hire Me!</button>
-		</div>
-	</section>
-	<!-- IntroSection End -->
+nav.mainMenu>ul {
+    float: right;
+}
 
-	<!-- Service Section Start -->
-	<section id="serviceMain">
-		<div class="serviceHeading">
-			<h1>Services</h1>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-		</div>
-		<div class="serviceDetail">
-			<div class="serviceitemOne">
-				<a href="#"><i class="fab fa-aws"></i></a>
-				<h2>Web Design</h2>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever.</p>
-			</div>
+nav.mainMenu>ul>li {
+    display: inline-block;
+}
 
-			<div class="serviceitemOne">
-				<a href="#"><i class="fab fa-aws"></i></a>
-				<h2>Web Development</h2>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever.</p>
-			</div>
+nav.mainMenu>ul>li>a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    float: left;
+    padding: 24px;
+}
 
-			<div class="serviceitemOne">
-				<a href="#"><i class="fab fa-aws"></i></a>
-				<h2>Web Marketing</h2>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever.</p>
-			</div>
-		</div>
-	</section>
-	<!-- Services Section End -->
+/*Header Section CSS End*/
 
-	<!-- Section Skills And Education Start -->
+/*Heading Main Section CSS*/
+section#headingMain {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 10px solid #e6e3e3e0;
+}
 
-	<section id="skEdMain">
-		<div class="leftDetail">
-			<h2>Skills And Education</h2>
-			<p class="sklText">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever.</p>
+.left {
+    width: 50%;
+    float: left;
+    padding: 8px 20px;
+}
 
-			<p><i class="fas fa-check"></i><a href="#">Lorem Ipsum is simply dummy text of the printing.</a></p>
-			<p> <i class="fas fa-check"></i><a href="#">Lorem Ipsum is simply dummy text of the printing.</a></p>
-			<p> <i class="fas fa-check"></i><a href="#">Lorem Ipsum is simply dummy text of the printing.</a></p>
+.right {
+    width: 50%;
+    float: right;
+    padding: 9px 85px;
+}
 
-			<button class="higherBtn">Hire Me</button>
-		</div>
+.left>p {
+    font-size: 14px;
+    padding: 20px 2px;
+}
 
-		<!-- Progress Bar Start -->
-		<div class="rightBar">
+.left>h1 {
+    font-size: 60px;
+}
 
-			<div class="myProgItem">
-				<p>CSS/HTML 90%</p>
-				<div class="fullProgress">
-					<div class="innerProgTotal htmlCssProgs"></div>
-				</div>
-			</div>
+.left>h1>span {
+    font-size: 60px;
+    color: #FA1D62;
+}
 
-			<div class="myProgItem">
-				<p>JAVASCRIPT 60%</p>
-				<div class="fullProgress">
-					<div class="innerProgTotal javaScriptProgs"></div>
-				</div>
-			</div>
+.right>img {
+    width: 80%;
+}
+/*Heading Main Section CSS End*/
 
-			<div class="myProgItem">
-				<p>jQUERY 65%</p>
-				<div class="fullProgress">
-					<div class="innerProgTotal jQueryProgs"></div>
-				</div>
-			</div>
+/*IntroSection Css*/
+section#introSection {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 35px;
+}
 
-			<div class="myProgItem">
-				<p>WORDPRESS 70%</p>
-				<div class="fullProgress">
-					<div class="innerProgTotal wordPressProgs"></div>
-				</div>
-			</div>
+.leftIntroImage {
+    width: 42%;
+    float: left;
+    margin-left: 42px;
+    margin-top: 44px;
+}
 
-			<div class="myProgItem">
-				<p>SEO 55%</p>
-				<div class="fullProgress">
-					<div class="innerProgTotal seoProgs"></div>
-				</div>
-			</div>
-			
-		</div>
-		<!-- Progress Bar End -->
-	</section>
+.rightDesc {
+    width: 50%;
+    float: right;
+    padding-top: 46px;
+}
 
-	<!-- Skill and Education Section End -->
-	<!-- Hire Me Section Start -->
-	<section id="hireMeMainSection">
-		<div class="leftSecDetail">
-			<h2>Hire Me</h2>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever.</p>
-			<!-- Contact Form Start -->
-			<form class="mainform">
-				<input type="text" name="" placeholder="Your Name?*" required="required"/>
-				<input type="email" name="" placeholder="Type Your Email?*"/>
-				<input type="text" name="" placeholder="With a subject?*" required="required"/>
-				<textarea class="textArea" cols="30" rows="3" placeholder="Your Message?"></textarea>
+.leftIntroImage>img {
+    width: 58%;
+    border-left: 10px solid #F4024B;
+    border-top: 10px solid #F4024B;
+}
 
-				<input class="SubBtn" type="submit" name="" value="SEND MESSAGE"/>
-			</form>
-			<!-- Contact Form End -->
-		</div>
+.rightDesc>h2 {
+    font-size: 25px;
+    padding-bottom: 16px;
+}
 
-		<div class="rightSection">
-			<div class="imageWrapper">
-				<img src="https://i.ibb.co/7gm5qnG/01.jpg" alt="Image Not Found!!" />
-			</div>
-		</div>
-	</section>
-	<!-- Hire Me Section End -->
-	<!-- Footer Section Start -->
-	<footer id="footerMain">
-		<div class="leftCopyright">
-			<p>Copyright &copy; Design By Developer Sakib</p>
-		</div>
+.rightDesc>p {
+    line-height: 32px;
+}
 
-		<div class="rightIcons">
-			<p>Follow Me:</p>
-			<ul>
-				<li><a href="#"><i class="fab fa-twitter twtad"></i></a></li>
-				<li><a href="#"><i class="fab fa-pinterest pinD"></i></a></li>
-				<li><a href="#"><i class="fab fa-facebook faD"></i></a></li>
-				<li><a href="#"><i class="fab fa-instagram insD"></i></a></li>
-				<li><a href="#"><i class="fab fa-skype skyD"></i></a></li>
-			</ul>
-		</div>
-	</footer>
-	<!-- Footer Section End -->
-<!-- Font Awesome Kit Code! -->
-<script src="https://kit.fontawesome.com/876d0dd391.js" crossorigin="anonymous"></script>
-</body>
-</html>
+span.boldText {
+    font-weight: bold;
+}
 
+p>a {
+    text-decoration: none;
+    color: #bdafaf;
+    transition: 0.3s;
+}
+
+p>a:hover{
+    color: #95C277;
+}
+.rightDesc>button {
+    outline: none;
+    border: none;
+    padding: 17px 30px;
+    background: #FD0248;
+    color: white;
+    margin-top: 26px;
+}
+
+.rightDesc>button:hover{
+    cursor:pointer;
+}
+/*IntroSection Css End*/
+
+/*Services Section CSS Start*/
+section#serviceMain {
+    width: 100%;
+    overflow: hidden;
+}
+
+.serviceHeading {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.serviceHeading>h1 {
+    font-size: 26px;
+    margin-bottom: 22px;
+}
+.serviceitemOne {
+    width: 30%;
+    float: left;
+    margin: 18px;
+    padding: 15px;
+    box-shadow: 0px 0px 0px 2px #f7f5f5;
+}
+
+.serviceDetail {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 22px;
+}
+.serviceHeading>p {
+    line-height: 35px;
+}
+.serviceitemOne>a>i {
+    font-size: 45px;
+    padding-bottom: 9px;
+}
+
+.serviceitemOne>h2 {
+    font-size: 24px;
+    padding-bottom: 14px;
+}
+
+.serviceitemOne>p {
+    line-height: 28px;
+    font-size: 14px;
+}
+
+/*Services Section CSS End*/
+
+/*Skills And Education Section CSS Start*/
+section#skEdMain {
+    width: 100%;
+    overflow: hidden;
+    background: #F5F6F8;
+    padding: 28px 20px;
+}
+
+.leftDetail {
+    width: 48%;
+    float: left;
+}
+
+.rightBar {
+    width: 48%;
+    float: right;
+    padding-top: 12px;
+}
+
+.leftDetail h2 {
+    font-size: 26px;
+    margin-bottom: 18px;
+}
+
+p.sklText {
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.leftDetail>p>a {
+    line-height: 27px;
+    font-size: 14px;
+    color: black;
+}
+.leftDetail>p>i {
+    font-size: 13px;
+}
+
+button.higherBtn {
+    outline: none;
+    border: none;
+    padding: 13px 36px;
+    border-radius: 12px;
+    background: #E72E3C;
+    color: white;
+    margin-top: 22px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.fullProgress {
+    width: 95%;
+    height: 20px;
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.innerProgTotal {
+    height: 20px;
+    float: left;
+    border-radius: 5px;
+}
+
+.myProgItem>p {
+    padding-bottom: 3px;
+}
+
+.htmlCssProgs {
+    background: #21B169;
+    width: 90%;
+}
+
+.javaScriptProgs {
+    width: 60%;
+    background: #FC6B3F;
+}
+
+.jQueryProgs {
+    width: 65%;
+    background: #1E91FD;
+}
+
+.wordPressProgs {
+    width: 70%;
+    background: #FE9D29;
+}
+
+.seoProgs {
+    width: 55%;
+    background: #ED5DD0;
+}
+
+/*Skills And Education Section CSS End*/
+
+/*Hire Me Section CSS Start*/
+section#hireMeMainSection {
+    width: 100%;
+    overflow: hidden;
+    padding: 28px 28px;
+}
+
+.leftSecDetail {
+    width: 48%;
+    float: left;
+}
+
+.rightSection {
+    width: 48%;
+    float: right;
+}
+
+.rightSection {}
+
+.leftSecDetail>h2 {
+    font-size: 35px;
+    padding-bottom: 12px;
+    font-weight: 800;
+}
+
+.leftSecDetail>p {
+    line-height: 28px;
+    padding-bottom: 18px;
+}
+
+.imageWrapper {
+    width: 500px;
+    height: 500px;
+}
+
+
+.imageWrapper>img {
+    width: 100%;
+    height: 100%;
+}
+form.mainform>input {
+    display: block;
+    width: 100%;
+    margin-bottom: 18px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+textarea.textArea {
+    width: 100%;
+    border: 1px solid #ddd;
+    outline: none;
+    padding: 10px;
+}
+
+input.SubBtn {
+    width: 168px !important;
+    height: 54px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #F70043;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+/*Hire Me Section CSS End*/
+/*Footer Section CSS Start*/
+footer#footerMain {
+    width: 100%;
+    overflow: hidden;
+    padding: 18px 20px;
+    background: #FAFBFD;
+}
+
+.leftCopyright {
+    width: 48%;
+    float: left;
+}
+
+.rightIcons {
+    width: 48%;
+    float: right;
+    text-align: right;
+}
+
+.rightIcons ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.rightIcons>p {
+    float: left;
+    margin-left: 285px;
+}
+.twtad {
+    color: #4896F6;
+}
+
+i.pinD {
+    color: #CA3242;
+}
+
+i.faD {
+    color: #0D86E8;
+}
+
+i.skyD {
+    color: #45A2F9;
+}
+/*Footer Section CSS End*/
