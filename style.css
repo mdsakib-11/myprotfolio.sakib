@@ -288,3 +288,117 @@ button.higherBtn {
 }
 
 /*Skills And Education Section CSS End*/
+
+/*Hire Me Section CSS Start*/
+section#hireMeMainSection {
+    width: 100%;
+    overflow: hidden;
+    padding: 28px 28px;
+}
+
+.leftSecDetail {
+    width: 48%;
+    float: left;
+}
+
+.rightSection {
+    width: 48%;
+    float: right;
+}
+
+.rightSection {}
+
+.leftSecDetail>h2 {
+    font-size: 35px;
+    padding-bottom: 12px;
+    font-weight: 800;
+}
+
+.leftSecDetail>p {
+    line-height: 28px;
+    padding-bottom: 18px;
+}
+
+.imageWrapper {
+    width: 500px;
+    height: 500px;
+}
+
+
+.imageWrapper>img {
+    width: 100%;
+    height: 100%;
+}
+form.mainform>input {
+    display: block;
+    width: 100%;
+    margin-bottom: 18px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+textarea.textArea {
+    width: 100%;
+    border: 1px solid #ddd;
+    outline: none;
+    padding: 10px;
+}
+
+input.SubBtn {
+    width: 168px !important;
+    height: 54px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #F70043;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+/*Hire Me Section CSS End*/
+/*Footer Section CSS Start*/
+footer#footerMain {
+    width: 100%;
+    overflow: hidden;
+    padding: 18px 20px;
+    background: #FAFBFD;
+}
+
+.leftCopyright {
+    width: 48%;
+    float: left;
+}
+
+.rightIcons {
+    width: 48%;
+    float: right;
+    text-align: right;
+}
+
+.rightIcons ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.rightIcons>p {
+    float: left;
+    margin-left: 285px;
+}
+.twtad {
+    color: #4896F6;
+}
+
+i.pinD {
+    color: #CA3242;
+}
+
+i.faD {
+    color: #0D86E8;
+}
+
+i.skyD {
+    color: #45A2F9;
+}
+/*Footer Section CSS End*/
