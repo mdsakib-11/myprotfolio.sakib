@@ -63,7 +63,7 @@ section#headingMain {
 .right {
     width: 50%;
     float: right;
-    padding: 49px 85px;
+    padding: 9px 85px;
 }
 
 .left>p {
@@ -78,6 +78,10 @@ section#headingMain {
 .left>h1>span {
     font-size: 60px;
     color: #FA1D62;
+}
+
+.right>img {
+    width: 80%;
 }
 /*Heading Main Section CSS End*/
 
